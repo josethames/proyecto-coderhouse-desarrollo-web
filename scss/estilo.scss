@@ -1,0 +1,142 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $gris;
+}
+
+@media(max-width:991px) {
+    nav{
+        height: 130px;
+        width: 100%;
+        margin: 0%;
+    }
+    .menu{
+        flex-direction: column;
+        top: 0%;
+        right: 0;
+        position: absolute;
+    }
+    .titulopagina{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+    .container{
+        display: grid;
+        flex-direction: column;
+    }
+    .container2{
+        display: grid;
+        flex-direction: column;
+    }
+    .container21{
+        display: grid;
+        flex-direction: column;
+    }
+    .footer-row{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center; 
+        margin: auto;  
+    }
+}
+@media(max-width:768px) {
+    nav{
+        height: 130px;
+        width: 100%;
+        margin: 0%;
+    }
+    .menu{
+        flex-direction: column;
+        top: 0%;
+        right: 0;
+        position: absolute;
+    }
+    .titulopagina{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+    .container{
+        display: grid;
+        flex-direction: column;
+    }
+    .container2{
+        display: grid;
+        flex-direction: column;
+    }
+    .container21{
+        display: grid;
+        flex-direction: column;
+    }
+    .footer-row{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+        margin: auto;   
+}
+}
+@media(max-width:320px) {
+    nav{
+        height: 130px;
+        width: 100%;
+        margin: 0%;
+    }
+    .menu{
+        flex-direction: column;
+        top: 0%;
+        right: 0;
+        position: absolute;
+    }
+    .titulopagina{
+        display: none;
+    }
+    .logo{
+        text-align: left;
+    }
+    .container{
+        display: grid;
+        flex-direction: column;
+    }
+    .container2{
+        display: grid;
+        flex-direction: column;
+    }
+    .container21{
+        display: grid;
+        flex-direction: column;
+    }
+    .footer-row{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+        margin: auto;
+         
+} 
+}
