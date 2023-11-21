@@ -103,6 +103,14 @@ main .formularioregistro {
   margin: 5%;
   padding: 5%;
   font-size: 130%; }
+  main .formularioregistro .ini {
+    text-decoration: none; }
+
+main .iniciosesion {
+  text-align: center;
+  margin: 5%;
+  padding: 5%;
+  font-size: 150%; }
 
 footer {
   background-color: #24262B;
